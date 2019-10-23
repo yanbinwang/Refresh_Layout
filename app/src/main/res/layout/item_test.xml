@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_margin="10dp"
+        android:src="@mipmap/ic_launcher" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/test_title_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="标题标题"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/test_des_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="简介简介"
+            android:textSize="12dp" />
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 刷新控件 -->
+    <declare-styleable name="XRefreshLayout">
+        <attr name="direction">
+            <enum name="top" value="0" />
+            <enum name="bottom" value="1" />
+            <enum name="both" value="2" />
+        </attr>
+    </declare-styleable>
+
+    <!-- 侧滑控件 -->
+    <declare-styleable name="SwipeMenuView">
+        <attr name="swipeEnable" format="boolean"/>
+        <attr name="ios" format="boolean"/>
+        <attr name="leftSwipe" format="boolean"/>
+    </declare-styleable>
+
+    <!-- 自定义XRecyclerView -->
+    <declare-styleable name="XRecyclerView">
+        <!-- recyclerview的类型 -->
+        <attr name="recyclerViewType">
+            <enum name="noRefresh" value="0" />
+            <enum name="haveRefresh" value="1" />
+        </attr>
+        <attr name="refreshDirection">
+            <enum name="top" value="0" />
+            <enum name="bottom" value="1" />
+            <enum name="both" value="2" />
+        </attr>
+        <attr name="containerType">
+            <enum name="noEmpty" value="0" />
+            <enum name="haveEmpty" value="1" />
+        </attr>
+    </declare-styleable>
+
+</resources>

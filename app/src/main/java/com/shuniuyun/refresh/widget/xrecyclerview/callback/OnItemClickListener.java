@@ -1,0 +1,12 @@
+package com.shuniuyun.refresh.widget.xrecyclerview.callback;
+
+/**
+ * author: wyb
+ * date: 2018/8/21.
+ * 由于recycleview没有item的点击事件，需要自己去重写
+ */
+public interface OnItemClickListener {
+
+    void setOnItemClickListener(int position);
+
+}
